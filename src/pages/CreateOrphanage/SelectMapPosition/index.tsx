@@ -11,7 +11,7 @@ const SelectMapPosition: React.FC = () => {
   const navigation = useNavigation();
 
   function handleNextStep() {
-    navigation.navigate('OrphanageData');
+    navigation.navigate('CreateOrphanage_OrphanageData');
   }
 
   return (
